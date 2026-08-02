@@ -1,0 +1,59 @@
+[project]
+name = "solar-tool-api-python"
+version = "0.1.0"
+description = "Python runtime dependencies for solar-tool-api"
+requires-python = "==3.10.12"
+dependencies = [
+    "affine==2.4.0",
+    "alphashape==1.3.1",
+    "attrs==24.2.0",
+    "certifi==2024.8.30",
+    "charset-normalizer==3.4.0",
+    "click==8.1.7",
+    "click-log==0.4.0",
+    "click-plugins==1.1.1",
+    "cligj==0.7.2",
+    "exceptiongroup==1.2.2",
+    "ezdxf==1.4.3",
+    "h5pyd>=0.18.0",
+    "idna==3.10",
+    "imageio==2.35.1",
+    "lazy-loader==0.4",
+    "matplotlib==3.10.7",
+    "networkx==3.3",
+    "numba==0.65.1",
+    "numba-cuda==0.30.4",
+    "nvidia-cuda-nvcc-cu12==12.4.131",
+    "nvidia-cuda-runtime-cu12==12.4.127",
+    "numpy==1.26.4",
+    "opencv-python==4.10.0.84",
+    "packaging==24.2",
+    "pandas>=2.3.3",
+    "pillow==10.4.0",
+    "pvlib>=0.15.1",
+    "pyparsing==3.2.0",
+    "pyproj==3.7.0",
+    "python-dotenv==1.0.1",
+    "rasterio==1.3.10",
+    "requests==2.32.3",
+    "richdem2==2.2.0",
+    "rtree==1.2.0",
+    "scikit-image==0.24.0",
+    "scikit-learn==1.6.1",
+    "scipy==1.14.1",
+    "shapely==2.0.6",
+    "snuggs==1.4.7",
+    "tifffile==2024.8.24",
+    "tomli==2.1.0",
+    "trimesh==4.4.0",
+    "urllib3==2.2.3",
+
+]
+
+[dependency-groups]
+dev = [
+    "pytest==8.3.3",
+]
+
+[tool.uv]
+package = false
