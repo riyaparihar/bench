@@ -27,8 +27,8 @@ bench/
 │   ├── __init__.py
 │   └── pvlib_core.py                  → REMOTE box
 ├── solar/
-│   ├── __init__.py                    ⚠️ PLACEHOLDER — replace
-│   ├── constants.py                   ⚠️ PLACEHOLDER — replace
+│   ├── __init__.py                    
+│   ├── constants.py                   
 │   ├── perf.py                        → REMOTE box
 │   ├── gpu_kernels.py                 → REMOTE box
 │   ├── terrain.py                     → REMOTE box
